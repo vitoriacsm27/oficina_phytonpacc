@@ -36,3 +36,31 @@ somaVar = um/dois
 print (f'Nome:{nome}')
 print (f'Idade:{idade}')
 print (f'Altura:{altura}')
+
+# input = entrada de dados
+#
+cpfConvertido = int(input("Digite o seu CPF:  "))
+
+cpfConvertido = float(input("Digite o seu CPF:  "))
+
+cpfConvertido = str(input("Digite o seu CPF:  "))
+# > maior que
+# < menor que 
+# >= maior ou igual a 
+# <= menor ou igual a 
+# == igual a 
+# != diferente de 
+
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+    print("Maior de idade")
+elif idade >= 16:
+    print("Pode votar")
+elif idade>= 0 and idade<16 :
+    print ("Menor de idade")
+else :
+    print ("Idade invalida")
+
+Nome = str(input("Digite seu nome: "))
+
